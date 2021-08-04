@@ -14,6 +14,8 @@ const appendFileLog = (answer) =>{
     })
 }
 
+console.log('Введите 1 или 2')
+
 input.on("line", (data) => {
     let randomNumber = Math.floor(Math.random() * 2 + 1)
     if ((data != 1) && (data != 2)) {
